@@ -1,0 +1,30 @@
+<!-- 符号互动™ -->
+<svg style="pointer-events:none;" version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="750" height="800"  enable-background="new 0 0 750 800" xml:space="preserve">
+    
+    <animate attributeName="height" fill="freeze" restart="always" calcMode="spline" keySplines="0.42 0 0.58 1"  values="800;2619" dur="0.3s" begin="HOTZONE1.click"></animate>
+    <animate attributeName="height" fill="freeze" restart="always" calcMode="spline" keySplines="0.42 0 0.58 1"  values="2619;800" dur="0.3s" begin="HOTZONE2.click"></animate>
+
+<rect fill="red" width="750" height="20000"/>
+<g id="down">
+	<foreignObject height="800" width="750" x="0" y="0">
+
+		<section style="-webkit-user-select:none;"><embed src="https://mmbiz.qlogo.cn/mmbiz_png/TxDjzWjs12xMGFqwgRzzQWvibpnqS12YLkyxWcWCo5hVQYkGLiaJBpOjooOzibVJ8SnoCoYmjeOPJSoibiaZUNgdeIw/0?wx_fmt=png"></section>
+		
+		
+	</foreignObject>
+</g>
+<g id="up">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-750 0"  begin="HOTZONE1.click" dur="0.1s"  calcMode="discrete" fill="freeze"></animateTransform>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0"  begin="HOTZONE2.click" dur="0.1s"  calcMode="discrete" fill="freeze"></animateTransform>
+	<g>
+		<foreignObject height="800" width="750" x="0" y="0"><section style="-webkit-user-select:none;"><embed src="https://mmbiz.qlogo.cn/mmbiz_png/TxDjzWjs12xMGFqwgRzzQWvibpnqS12YL3h2OmGhDgBv1Yiah4DfTJRPjQ9Z2HIpFvlnLpINFoOgH2vtLPXdpLJQ/0?wx_fmt=png"></section></foreignObject>
+	</g>
+</g>
+
+<rect style="pointer-events:visible;" id="HOTZONE2" x="0" y="0" opacity="0" fill="#0BFFB3" width="750" height="800"></rect>
+<rect style="pointer-events:visible;" id="HOTZONE1" x="0" y="0" opacity="0" fill="#0BFFB3" width="750" height="800">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-750 0"  begin="click" dur="0.1s"  calcMode="discrete" fill="freeze"></animateTransform>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0"  begin="HOTZONE2.click" dur="0.1s"  calcMode="discrete" fill="freeze"></animateTransform>
+</rect>
+</svg>
