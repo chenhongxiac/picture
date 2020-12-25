@@ -1,0 +1,11 @@
+<svg style="pointer-events:none;" version="1.1"  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="750" height="200"  enable-background="new 0 0 750 200" xml:space="preserve">
+    
+    <animate attributeName="height" fill="freeze" restart="always" calcMode="spline" keySplines="0.42 0 0.58 1"  values="200;4000" dur="0.3s" begin="btn1.click"></animate>
+    <animate attributeName="height" fill="freeze" restart="always" calcMode="spline" keySplines="0.42 0 0.58 1"  values="4000;200" dur="0.3s" begin="btn2.click"></animate>
+<rect fill="red" width="750" height="30000"/>
+<rect style="pointer-events:visible;" id="btn2" x="0" y="0" fill="orange" width="750" height="200"></rect>
+<rect style="pointer-events:visible;" id="btn1" x="0" y="0" fill="yellow" width="750" height="200">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-750 0"  begin="click" dur="0.1s"  calcMode="discrete" fill="freeze"></animateTransform>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0"  begin="btn2.click" dur="0.1s"  calcMode="discrete" fill="freeze"></animateTransform>
+</rect>
+</svg>
